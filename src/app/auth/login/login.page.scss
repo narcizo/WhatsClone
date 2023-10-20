@@ -1,0 +1,26 @@
+ion-toolbar {
+    --background-color: transparent;
+    --ion-color-base: transparent !important;
+}
+
+img {
+    width:30%;
+    height:auto;
+    // height:200px; 
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #25D366;
+    overflow: auto;
+    height: 30%;
+}
+
+.inner-banner {
+
+}
+
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
